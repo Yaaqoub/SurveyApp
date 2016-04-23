@@ -10,8 +10,8 @@ app.set('view engine', 'jade');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cookieParser());
-app.use(session({
-	genid: function(req){
+app.use(session( {
+	genid: function(req) {
 		return uuid.v1();
 	},
 	secret: 'steph17',
@@ -34,4 +34,4 @@ var server = app.listen(8081, function () {
 
   console.log("Example app listening at http://%s:%s", host, port)
 
-    });
+});
