@@ -1,11 +1,11 @@
 var express = require('express');
-var app = express();
 var router = require('./routes');
 var bodyParser = require('body-parser');
 var cookieParser = require('cookie-parser');
 var uuid = require('uuid');
 var session = require('express-session');
 var database = require('mysql');
+var app = express();
 
 app.set('view engine', 'jade');
 app.use(bodyParser.urlencoded({ extended: true }));
