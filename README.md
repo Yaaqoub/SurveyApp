@@ -28,8 +28,9 @@ This should properly configure your local database. Next we can start up the ser
 	`npm start`, and the application should now be running at 
 [http://localhost:5000/](http://localhost:5000/)
 
-Navigating the Survey App
-=========================
+Using the Survey App
+====================
+You might first want to populate the survey with questions. To do so, go to the [Administrator Dashboard](https://github.com/steph-w/SumoMeSurveyApp#administrator-dashboard) to add some interesting things you want to ask people.
 
 Survey Page
 -----------
@@ -44,7 +45,7 @@ To access the administrator section of the application, click on the **Admin** b
 
 ![login](/images/login.png)
 
-Next you will be taken to the administrator dashboard where you can enter a new question and edit or delete previous survey questions. 
+Next you will be taken to the administrator dashboard where you can enter a new question and edit or delete previous survey questions. You might want to populate the question survey 
 
 ![dashboard](/images/dashboard.png)
 
@@ -56,3 +57,8 @@ Clicking on **Results** will take you to the results page where you can see how 
 
 ![results](/images/results.png)
 
+This app is written with the [Bootstrap](http://getbootstrap.com/), so naturally the UI is mobile friendly.
+Using Bootstrap, the web app will automatically be resized to scale to fit on your phone screens
+
+And that's about it, happy surveying!
+-------------------------------------
