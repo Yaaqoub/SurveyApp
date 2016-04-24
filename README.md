@@ -57,7 +57,7 @@ Clicking on **Results** will take you to the results page where you can see how 
 
 ![results](/images/results.png)
 
-This app is written with the [Bootstrap](http://getbootstrap.com/), so naturally the UI is mobile friendly.
+This app is written using the [Bootstrap](http://getbootstrap.com/) framework, so naturally the UI is mobile friendly.
 Using Bootstrap, the web app will automatically be resized to scale to fit on your phone screens
 
 And that's about it, happy surveying!
