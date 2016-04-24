@@ -17,8 +17,8 @@ To set up the database, in the config/config.json file replace
 
 with the credentials of your MySQL account. 
 Next we install all dependencies with a call to 
-	npm install
+	``npm install``
 Then start up the server by calling 
-	npm start 
+	``npm start`` 
 and the application should now be running at 
 [http://localhost:5000/](http://localhost:5000/)
