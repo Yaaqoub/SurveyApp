@@ -33,18 +33,6 @@ app.get('/', function (req, res) {
    res.sendFile( __dirname + "/routes" + "/index.jade" );
 });
 
-/*
-var server = app.listen(8081, function () {
-
-  var host = server.address().address
-  var port = server.address().port
-
-  console.log("Example app listening at http://%s:%s", host, port)
-
-});
-*/
-//var debug = require('debug')('express-example');
-//var app = require('../app');
 var models = require('./models');
 
 app.set('port', process.env.PORT || 5000);
