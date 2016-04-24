@@ -29,10 +29,29 @@ This should properly configure your local database. Next we can start up the ser
 [http://localhost:5000/](http://localhost:5000/)
 
 Navigating the Survey App
--------------------------
+=========================
 
+Survey Page
+-----------
 The first page you are greeted with is the page that presents a question to the user. Once a user answers a question, they will be presented with another randomized question and will not see previously answered questions again. Once a user has answered all the questions, they are presented with a page that indicates that the list of questions has been exhausted. 
 
 The front page will appear as
 ![first_page](/images/firstpage.png)
 
+Administrator Dashboard
+-----------------------
+To access the administrator section of the application, click on the *Admin* button at the top right corner of the page. This will take you to the login, in which the default username is *admin* and the default password is *1234*.
+
+![login](/images/login.png)
+
+Next you will be taken to the administrator dashboard where you can enter a new question and edit or delete previous survey questions. 
+
+![dashboard](/images/dashboard.png)
+
+Clicking on *Edit* will take you to a page where you can edit the specified question.
+
+![edit](/images/edit.png)
+
+Clicking on *Results* will take you to the results page where you can see how many votes each choice has garnered. 
+
+![results](/images/results.png)
