@@ -1,7 +1,7 @@
 Survey App
 ==========
-A simple survey app written in Node.js using an Express based framework, SequelizeJS, and a MySQL database.
------------------------------------------------------------------------------------------------------------
+### A simple survey app written in Node.js using an Express based framework, SequelizeJS, and a MySQL database.
+#### A live version of this web app is hosted on Heroku and can be accessed at [Survey App](https://secret-woodland-69976.herokuapp.com/).
 First clone the repository using 
 	`git clone https://github.com/steph-w/SumoMeSurveyApp.git`
 
@@ -40,7 +40,7 @@ The front page will appear as
 
 Administrator Dashboard
 -----------------------
-To access the administrator section of the application, click on the *Admin* button at the top right corner of the page. This will take you to the login, in which the default username is *admin* and the default password is *1234*.
+To access the administrator section of the application, click on the **Admin** button at the top right corner of the page. This will take you to the login, in which the default username is **admin** and the default password is **1234**.
 
 ![login](/images/login.png)
 
@@ -48,10 +48,11 @@ Next you will be taken to the administrator dashboard where you can enter a new 
 
 ![dashboard](/images/dashboard.png)
 
-Clicking on *Edit* will take you to a page where you can edit the specified question.
+Clicking on **Edit** will take you to a page where you can edit the specified question.
 
 ![edit](/images/edit.png)
 
-Clicking on *Results* will take you to the results page where you can see how many votes each choice has garnered. 
+Clicking on **Results** will take you to the results page where you can see how many votes each choice has garnered. 
 
 ![results](/images/results.png)
+
