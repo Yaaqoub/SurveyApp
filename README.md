@@ -3,7 +3,7 @@ Survey App
 A simple survey app written in Node.js using an Express based framework, SequelizeJS, and a MySQL database.
 -----------------------------------------------------------------------------------------------------------
 First clone the repository using 
-	git clone https://github.com/steph-w/SumoMeSurveyApp.git
+	`git clone https://github.com/steph-w/SumoMeSurveyApp.git`
 
 To set up the database, in the config/config.json file replace 
 
@@ -17,8 +17,15 @@ To set up the database, in the config/config.json file replace
 
 with the credentials of your MySQL account. 
 Next we install all dependencies with a call to 
-	``npm install``
+	`npm install`.
 Then start up the server by calling 
-	``npm start`` 
+	`npm start`, 
 and the application should now be running at 
 [http://localhost:5000/](http://localhost:5000/)
+
+Navigating the Survey App
+-------------------------
+
+The first page you are greeted with is the page that presents a question to the user. Once a user answers a question, they will be presented with another randomized question and will not see previously answered questions again. Once a user has answered all the questions, they are presented with a page that indicates that the list of questions has been exhausted. 
+
+The front page will appear as this 
