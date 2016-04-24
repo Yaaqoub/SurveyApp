@@ -5,6 +5,7 @@ var cookieParser = require('cookie-parser');
 var uuid = require('uuid');
 var session = require('express-session');
 var database = require('mysql');
+var flash = require('connect-flash');
 var app = express();
 
 app.set('view engine', 'jade');
@@ -16,10 +17,14 @@ app.use(session( {
 		return uuid.v1();
 	},
 	secret: 'steph17',
-	cookie:{ secure: false },
+	cookie:
+	{ 
+		secure: false
+	},
 	resave: false,
 	saveUninitialized: false
 }));
+
 app.use('/', router);
 
 app.use(express.static('public'));
